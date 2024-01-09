@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.side-by-side {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sub-block {
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%; /* By default, sub-blocks take 100% width */
+}
+
+@media only screen and (min-width: 600px) {
+  .sub-block {
+    width: calc(50% - 20px); /* Two sub-blocks side by side with margin */
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .sub-block {
+    width: calc(50% - 20px); /* Two sub-blocks side by side with margin */
+  }
+
+  .side-by-side {
+    width: calc(50% - 20px); /* Two side-by-side blocks */
+  }
+}

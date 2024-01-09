@@ -1,0 +1,65 @@
+/* LatestUpdate.css */
+
+.latest-update-container {
+    padding: 16px;
+    background-color: #053750;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    cursor: pointer;
+    width: 380px;
+    height: 700px;
+    overflow: hidden;
+    z-index: 5;
+    text-align: center;
+    color: #ffff;
+    margin-left: 20%;
+  }
+  
+  .updates-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:#ffff
+  }
+  
+  .updates-list {
+    overflow-y: hidden;
+    max-height: 100%;
+  }
+  
+  .updates-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .updates-list li {
+    margin-bottom: 8px;
+    padding: 8px;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .updates-list li:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+  .latest-updates{
+    /* margin-top: 10%; */
+    overflow: hidden;
+  }
+  @keyframes moveFromBottom {
+    0% { transform: translateY(100%); }
+   /* 50% { transform: translateY(-100%); } */
+    100% { transform: translateY(-100%); } 
+  }
+  
+  .event-item {
+    animation: moveFromBottom 20s infinite linear;
+    overflow-y: hidden;
+  }
+  
+  .event-item:hover {
+    animation-play-state: paused;
+  }

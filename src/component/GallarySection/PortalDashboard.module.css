@@ -1,0 +1,36 @@
+.navigationContainer {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .navigationList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navigationItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 208px;
+    height: 166px;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 5px rgba(0.013664245605458092, 0.013664245605458092, 0.013664245605458092, 0.24);
+    transition: transform 0.3s;
+    background-image: linear-gradient(180deg, #C5EEFF 0%, #75BEE2 100%);
+  }
+  
+  .navigationItem:hover {
+    transform: translateY(-5px);
+  }
+  
+  .navigationItem svg {
+    margin-right: 10px;
+    font-size: 28px;
+  }

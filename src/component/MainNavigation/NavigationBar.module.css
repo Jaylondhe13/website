@@ -1,0 +1,78 @@
+/* NavigationBar.module.css */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #053750;
+  padding: 10px;
+  position: relative;
+  /* margin: 0 8%; */
+}
+
+.menuToggle {
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  display: none; /* Hide by default on larger screens */
+}
+
+.menuItems {
+  display: flex;
+  gap: 10px;
+  margin-left: 8%;
+}
+
+.menuItem {
+  color: #fff;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.menuItems.active {
+  display: flex;
+  /* flex-direction: column; Display menu items vertically on small screens */
+  flex-direction: row; 
+}
+
+
+/* Style for the blog container */
+.blogContainer {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index:2;
+}
+
+.blogContainer.active {
+  display: block;
+}
+
+/* Show menuToggle on small screens */
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    
+  }
+  .menuToggle {
+    display: block;
+  }
+
+  /* Hide menuItems by default on small screens */
+  .menuItems {
+    display: none;
+  }
+
+  /* Show menuItems when menuToggle is active */
+  .menuItems.active {
+    display: flex;
+    flex-direction: column; /* Display menu items vertically on small screens */
+    text-align: center;
+  }
+}

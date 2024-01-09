@@ -1,0 +1,17 @@
+/* OurComponent.module.css */
+.foreground-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 100;
+    width: 100%;
+    height: auto
+  }
+  
+  @media (min-width: 768px) {
+    .foreground-container {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  

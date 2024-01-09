@@ -1,0 +1,22 @@
+*{
+
+box-sizing: border-box;
+  
+}
+
+:root {
+  --primary-color: #053750;
+  /* --secondary-color: #2ecc71; */
+}
+
+header{
+  background-color: var(--primary-color);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden
+}
+
+

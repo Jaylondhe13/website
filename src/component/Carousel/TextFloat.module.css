@@ -1,0 +1,19 @@
+/* styles.module.css */
+
+@keyframes slideInFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+  .floatingText {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+    transform: translate(0, 60%);
+    animation: slideInFromRight 1s ease forwards;
+  }
+  

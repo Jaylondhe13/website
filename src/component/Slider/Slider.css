@@ -1,0 +1,24 @@
+/* ImageSlider.css */
+.slider-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider-pair {
+    display: flex;
+  }
+  
+  .slider-item {
+    flex: 1;
+  }
+  
+  .slider-image {
+    width: 100%; /* Adjust as needed */
+    height: auto;
+  }
+  
+  .description-container {
+    padding: 20px;
+    color: #fff;
+  }
+  

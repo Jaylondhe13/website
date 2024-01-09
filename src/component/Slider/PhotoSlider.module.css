@@ -1,0 +1,33 @@
+/* PhotoSlider.module.css */
+
+.photoSlider {
+    width: 100%;
+    margin: 20px auto;
+  }
+  
+  .photoSlider .slick-slide img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+    
+  }
+  
+  .photoSlider .slick-prev,
+  .photoSlider .slick-next {
+    color: black; 
+    
+  
+  }
+
+  .photo{
+    margin-left: 10px !important;
+  }
+
+  
+  
+  
+ 
+ 
+  /* Add more styles as necessary */
+  
