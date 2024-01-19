@@ -1,7 +1,9 @@
 import React from 'react';
 import MenuItem from './MenuItem';
+import logo from '../../assets/img/logo.jpg'
 
 function Menu() {
+  
   const menuItems = [
     {label: 'HOME'},
 
@@ -10,7 +12,7 @@ function Menu() {
       model: [
         {
           title: 'ABOUT US',
-          content: ['ABOUT SOCIETY', 'ABOUT THE RSCP', 'VISION & MISSION', 'APPROVALS', 'WHY RSCP ?', 'ANNUAL REPORTS']
+          content: ['ABOUT SOCIETY', 'ABOUT THE SSGMCOP', 'VISION & MISSION', 'APPROVALS', 'WHY SSGMCOP ?', 'ANNUAL REPORTS']
         },
 
         {
@@ -23,7 +25,11 @@ function Menu() {
         },
         {
           title: '',
-          content: ['Courses', 'Grievances', 'SC/ST Cell', 'Anti-ragging Help', 'Scholarships', 'Hall of Fame', 'Feedback', 'eLearning System']
+          content: [<img
+            src={logo}
+            alt="College Logo"
+            className="img-fluid rounded-circle" style={{width:"150px", height:"150px"}}
+          />]
         }
       ]
     },

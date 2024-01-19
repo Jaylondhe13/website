@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Header.module.css';
+import './Header.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import HeaderInfo from './HeaderInfo';
 import { socialLinks } from '../../shared/constants';
@@ -7,10 +7,10 @@ import { socialLinks } from '../../shared/constants';
 const Header = () => {
 
   return <>
-    <div className={`${styles.header} container`}>
-      <div className={styles['header-content']}>
+    <div className='header'>
+      <div className='header-content'>
 
-        <nav className={styles.nav}>
+        <nav className='nav'>
           <a href="#">Link 1</a>
           <a href="#">Link 2</a>
           <a href="#">Link 3</a>
@@ -18,9 +18,9 @@ const Header = () => {
           <a href="#">Link 5</a>
         </nav>
       </div>
-      <ul className={styles['social-icons']}>
+      <ul className='social-icons'>
         {socialLinks.map((link) => (
-          <li key={link.icon} className={styles['social-icon']}>
+          <li key={link.icon} className='social-icon'>
             <a href={link.url} style={{ backgroundColor: link.backgroundColor }}>
               <FontAwesomeIcon icon={link.icon} />
             </a>

@@ -27,7 +27,7 @@ function MenuItem({ label, model }) {
               <div className="model-title">{section.title}</div>
               <div className="model-content">
                 {section.content.map((item, i) => (
-                  <Link to='/about'  key={i} className="content-item">{item}</Link>
+                  <Link to='about'  key={i} className="content-item" onClick={()=>setIsHovering(false)}>{item}</Link>
                 ))}
               </div>
             </div>
