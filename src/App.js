@@ -1,22 +1,4 @@
-import Header from "./component/Header/Header";
 import './App.css'
-import NavigationBar from "./component/MainNavigation/NavigationBar";
-import CarouselInfo from "./component/Carousel/CarouselInfo";
-import CollegeInfo from "./component/CollegeInfo/CollegeInfo";
-import Example from "./component/Carousel/Carousel1";
-import TickerComponent from "./component/CollegeInfo/TickerComponent";
-import LatestInfo from "./component/LatestInfo/LatestInfo";
-import BackGroundlayout from "./component/LatestUpdate/BackGroundLayout";
-import EventSection from "./component/LatesEvent/EventSection";
-import MainSection from "./component/MainSection/MainSection";
-
-
-import GallarySection from "./component/GallarySection/GallarySection";
-import PortalDashboardComponent from "./component/GallarySection/PortalDashboardComponent";
-import MessageComponent from "./component/MessageSection/MessageComponent";
-import FooterSection from "./component/footer/FooterSection";
-import Menu from "./component/Menu/Menu";
-import JayPage from "./pages/Home";
 import HomePage from "./pages/Home";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import AboutPage from "./pages/about";

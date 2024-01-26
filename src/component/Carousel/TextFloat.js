@@ -1,16 +1,17 @@
 import styles from './TextFloat.module.css';
 
-const TextFloat = () => {
-    return (
-        <div>
-            <div className={styles.floatingText}>
+const TextFloat = (props) => {
+  return (
+    <div>
+      <div className={styles.floatingText}>
         {/* Your content goes here */}
-        <p>This text will float from the right.</p>
+        <h1>{props.description}</h1>
+        <p>{props.description}</p>
       </div>
 
-        </div>
-      
-    );
-  };
-  
-  export default TextFloat;
+    </div>
+
+  );
+};
+
+export default TextFloat;
