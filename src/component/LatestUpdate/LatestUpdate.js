@@ -109,13 +109,13 @@ const LatestUpdate = () => {
 
   return (
     <div className=' ms-5 text-center' style={{backgroundColor:"#053750"}}>
-      <h2 className='text-light'>Latest Updates</h2>
-      <div className="latest-updates bg-light m-4" style={{height:"70%"}}>
+      <h2 className='text-light p-2'>Latest Updates</h2>
+      <div className="latest-updates bg-light m-4" >
       
       <ul className="event-item">
         {updates.map((update, index) => (
           <li key={index} >
-            <strong>{update.date}:</strong> {update.event}
+             {update.event} -<strong style={{fontSize:'12px', color:'gray'}}>{update.date}:</strong>
           </li>
         ))}
       </ul>
