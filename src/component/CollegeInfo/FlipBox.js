@@ -12,13 +12,13 @@ const FlipBox = () => {
         <div className={styles.flipBoxInner}>
           <div className={styles.flipBoxFront}>
             {/* <img className={styles.flipBoxImg} src="https://rscp.ac.in/wp-content/uploads/info-brochure1.jpg" alt="Front Image" /> */}
-            <img src={infoBrochure} className={styles.flipBoxImg} alt="Front Image"/>
+            {/* <img src={infoBrochure} className={styles.flipBoxImg} alt="Front Image"/> */}
             <p>Information<br></br> Browser</p>
             
           </div>
           <div className={styles.flipBoxBack} >
             {/* <img className={styles.flipBoxImg} src="https://rscp.ac.in/wp-content/uploads/info-brochure1.jpg" alt="Back Image" /> */}
-            <img src={infoBrochure} className={styles.flipBoxImg} alt="Back Image"/>
+            {/* <img src={infoBrochure} className={styles.flipBoxImg} alt="Back Image"/> */}
             <p>Information<br></br> Browser</p>
           </div>
         </div>

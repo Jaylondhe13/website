@@ -2,7 +2,8 @@
 import React from 'react';
 import styles from './OurCourses.module.css'; // Import the CSS module
 import { motion } from 'framer-motion';
-import phd from '../../assets/img/phd.jpg'
+import bPharm from '../../assets/img/bPharm.jpeg'
+import dPharm from '../../assets/img/bPharm.jpeg'
 
 const OurCourses = () => {
   return (
@@ -20,9 +21,11 @@ const OurCourses = () => {
             animate={{ rotate: 360, transition: { duration: 1 } }}
           >
             <img 
-              src={phd} 
+              src={bPharm} 
               alt="First Course" 
               loading="lazy" 
+              width="225px"
+              height="300px"
 
             />
           </motion.div>
@@ -32,9 +35,11 @@ const OurCourses = () => {
             animate={{ rotate: 360, transition: { duration: 1 } }}
           >
             <img 
-              src={phd}
+              src={dPharm}
               alt="Second Course" 
               loading="lazy" 
+              width="225px"
+              height="300px"
             />
           </motion.div>
         </div>
@@ -44,11 +49,7 @@ const OurCourses = () => {
           animate={{ rotate: 360, transition: { duration: 1 } }}
           className={styles['bottom-image']}
         >
-          <img 
-            src={phd}
-            alt="Third Course" 
-            loading="lazy" 
-          />
+          
         </motion.div>
       </div>
     </div>

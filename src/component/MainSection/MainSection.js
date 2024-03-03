@@ -1,24 +1,24 @@
 import { academicIcons } from '../../shared/constants';
 import PhotoSlider from '../Slider/PhotoSlider';
 import Section1 from './Section1';
-import dept from '../../assets/img/ceutics-dept.jpg'
-
-const photos = [
-    {
-      src: 'https://rscp.ac.in/wp-content/uploads/flayer-450x267.jpg ',
-      description: 'Description for Image 1',
-    },
-    {
-      src: 'https://rscp.ac.in/wp-content/uploads/ecmg-day-450x267.png',
-      description: 'Description for Image 2',
-    },
+import dept1 from '../../assets/img/dept1.jpeg'
+import dept2 from '../../assets/img/dept2.jpeg'
+// const photos = [
+//     {
+//       src: 'https://rscp.ac.in/wp-content/uploads/flayer-450x267.jpg ',
+//     //   description: 'Description for Image 1',
+//     },
+//     {
+//       src: 'https://rscp.ac.in/wp-content/uploads/ecmg-day-450x267.png',
+//     //   description: 'Description for Image 2',
+//     },
   
-    {
-      src: 'https://rscp.ac.in/wp-content/uploads/Skill-Development-Program-2023-5-450x267.jpg',
-      description: 'Description for Image 3',
-    },
-    // Add more images as needed
-  ];
+//     {
+//       src: 'https://rscp.ac.in/wp-content/uploads/Skill-Development-Program-2023-5-450x267.jpg',
+//     //   description: 'Description for Image 3',
+//     },
+//     // Add more images as needed
+//   ];
 const MainSection = () => {
     return (
         <section className="container d-flex justify-content-between">
@@ -29,21 +29,17 @@ const MainSection = () => {
                     <button className='btn btn-outline-info m-3 p-2'>View All Facilities</button>
 
                 </div>
-                <div><PhotoSlider photos={photos}/></div>
-                <div>3</div>
+                {/* <div><PhotoSlider photos={photos}/></div> */}
+                {/* <div>3</div> */}
             </div>
-            <div className="flex flex-column " style={{ width: "70%" }}>
-                <div className='d-flex justify-content-evenly m-5'>
-                    <div className='shadow p-3 mb-5 bg-body rounded'><img src={dept} /></div>
-                    <div className='shadow p-3 mb-5 bg-body rounded'><img src={dept} /></div>
+            <div className="flex flex-column " >
+                <div className='d-flex justify-content-between m-5'>
+                    <div className='shadow p-3 mb-5 bg-body rounded'><img src={dept1} width="280px"/></div>
+                    <div className='shadow p-3 mb-5 bg-body rounded'><img src={dept2} width="280px"/></div>
 
                 </div>
-                <div className='d-flex justify-content-evenly'>
-                    <div className='shadow p-3 mb-5 bg-body rounded'><img src={dept} /></div>
-                    <div className='shadow p-3 mb-5 bg-body rounded'><img src={dept} /></div>
-
-                </div>
-                <div className='d-flex justify-content-evenly'><span>..................................................  </span><h3>FEEDBACKS</h3><span>..........................................................</span></div>
+                
+                {/* <div className='d-flex justify-content-evenly'><span>..................................................  </span><h3>FEEDBACKS</h3><span>..........................................................</span></div>
                 <div className='d-flex my-5'>
                     <div className='mx-3'>
                         <iframe width="418" height="235"
@@ -70,7 +66,7 @@ const MainSection = () => {
                         <div><h4>Amruta S Khande</h4></div>
 
                     </div>
-                </div>
+                </div> */}
             </div>
 
         </section>

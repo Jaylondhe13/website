@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './MenuItem.css';
 import { Link, NavLink, Navigate, useNavigate } from 'react-router-dom';
 
-function MenuItem({ label, model }) {
+function MenuItem({ label,model }) {
   const navigate = useNavigate();
   const [isHovering, setIsHovering] = useState(false);
 
@@ -27,7 +27,7 @@ function MenuItem({ label, model }) {
               <div className="model-title">{section.title}</div>
               <div className="model-content">
                 {section.content.map((item, i) => (
-                  <Link to='about'  key={i} className="content-item" onClick={()=>setIsHovering(false)}>{item}</Link>
+                  <Link to={item.path}  key={i} className="content-item" onClick={()=>setIsHovering(false)}>{item}</Link>
                 ))}
               </div>
             </div>

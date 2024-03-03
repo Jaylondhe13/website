@@ -23,8 +23,8 @@ const HomePage = () => {
         <BackGroundlayout />
         <EventSection />
         <MainSection />
-        <GallarySection />
-        <PortalDashboardComponent />
+        {/* <GallarySection /> */}
+        {/* <PortalDashboardComponent /> */}
        
 
 

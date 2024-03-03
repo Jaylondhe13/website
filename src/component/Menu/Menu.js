@@ -13,6 +13,7 @@ function Menu() {
         {
           title: 'ABOUT US',
           content: ['ABOUT SOCIETY', 'ABOUT THE SSGMCOP', 'VISION & MISSION', 'APPROVALS', 'WHY SSGMCOP ?', 'ANNUAL REPORTS']
+         
         },
 
         {
@@ -28,7 +29,7 @@ function Menu() {
           content: [<img
             src={logo}
             alt="College Logo"
-            className="img-fluid rounded-circle" style={{width:"150px", height:"150px"}}
+            className="img-fluid " style={{width:"150px", height:"150px", borderRadius:"45px"}}
           />]
         }
       ]
@@ -36,133 +37,133 @@ function Menu() {
     {
       label: 'ACADEMICS',
       model: [
-        {
-          title: 'APPROVALS',
-          content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
-        },
+        // {
+        //   title: 'APPROVALS',
+        //   content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
+        // },
 
-        {
-          title: 'APPROVALS',
-          content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
-        }
+        // {
+        //   title: 'APPROVALS',
+        //   content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
+        // }
       ]
     },
     {
       label: 'ADMISSIONS',
       model: [
-        {
-          title: 'APPROVALS',
-          content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
-        },
+        // {
+        //   title: 'APPROVALS',
+        //   content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
+        // },
 
-        {
-          title: 'APPROVALS',
-          content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
-        }
+        // {
+        //   title: 'APPROVALS',
+        //   content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
+        // }
       ]
     },
     {
       label: 'STUDENT CORNER',
       model: [
-        {
-          title: 'APPROVALS',
-          content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
-        },
+        // {
+        //   title: 'APPROVALS',
+        //   content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
+        // },
 
-        {
-          title: 'APPROVALS',
-          content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
-        }
+        // {
+        //   title: 'APPROVALS',
+        //   content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
+        // }
       ]
     },
     {
       label: 'COMMITTEE',
       model: [
-        {
-          title: 'APPROVALS',
-          content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
-        },
+        // {
+        //   title: 'APPROVALS',
+        //   content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
+        // },
 
-        {
-          title: 'APPROVALS',
-          content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
-        }
+        // {
+        //   title: 'APPROVALS',
+        //   content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
+        // }
       ]
     },
     {
       label: 'GALLARY',
       model: [
-        {
-          title: 'APPROVALS',
-          content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
-        },
+        // {
+        //   title: 'APPROVALS',
+        //   content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
+        // },
 
-        {
-          title: 'APPROVALS',
-          content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
-        }
+        // {
+        //   title: 'APPROVALS',
+        //   content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
+        // }
       ]
     },
     {
       label: 'ONLINE PAYMENT',
       model: [
-        {
-          title: 'APPROVALS',
-          content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
-        },
+        // {
+        //   title: 'APPROVALS',
+        //   content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
+        // },
 
-        {
-          title: 'APPROVALS',
-          content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
-        },
+        // {
+        //   title: 'APPROVALS',
+        //   content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
+        // },
         
       ]
     },
@@ -170,23 +171,23 @@ function Menu() {
     {
       label: 'OTHER',
       model: [
-        {
-          title: 'APPROVALS',
-          content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
-        },
+        // {
+        //   title: 'APPROVALS',
+        //   content: ['PCI', 'SGBAU', 'AICTE', 'AICTE DISCLOSURES']
+        // },
 
-        {
-          title: 'APPROVALS',
-          content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
-        },
-        {
-          title: 'DISCLOSURES',
-          content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
-        },
+        // {
+        //   title: 'APPROVALS',
+        //   content: ["MAHARASHTRA GOVT.", "DTE", "AISHE"]
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['PCI-SIF', 'NIRF', 'AUDIT STATEMENT']
+        // },
+        // {
+        //   title: 'DISCLOSURES',
+        //   content: ['IQAC/AQAR', 'FEES STRUCTURE', 'ORGANOGRAM', 'COMMITTEES']
+        // },
         
       ]
     }

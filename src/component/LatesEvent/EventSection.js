@@ -23,7 +23,7 @@ const EventSection = () => {
           </div>
         </div>
 
-        <div style={{ width: "40%" }} className="text-center m-5">
+        {/* <div style={{ width: "40%" }} className="text-center m-5">
           <h3 className="my-4">Come on Join Us</h3>
           <iframe
             width="418" height="235"
@@ -33,7 +33,7 @@ const EventSection = () => {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowFullScreen
           ></iframe>
-        </div>
+        </div> */}
       </div>
     </section>
   );

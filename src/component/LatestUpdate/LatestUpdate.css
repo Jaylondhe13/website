@@ -6,15 +6,16 @@
     /* margin-top: 10%; */
     overflow: hidden;
     height: 500px;
+    min-width: 300px;
   }
   @keyframes moveFromBottom {
-    0% { transform: translateY(100%); }
+    -100% { transform: translateY(100%); }
    /* 50% { transform: translateY(-100%); } */
     100% { transform: translateY(-100%); } 
   }
   
   .event-item {
-    animation: moveFromBottom 20s infinite linear;
+    animation: moveFromBottom 10s infinite linear;
     overflow-y: hidden;
     text-align: left;
     

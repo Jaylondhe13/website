@@ -33,7 +33,7 @@ const CollegeInfo = () => {
                 ></iframe> */}
 
 
-                    <iframe
+                    {/* <iframe
                         width="420"
                         height="247"
                         src="https://www.youtube.com/embed/7qR0RGqkYD8?autoplay=1&mute=1"
@@ -41,7 +41,7 @@ const CollegeInfo = () => {
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen
-                    ></iframe>
+                    ></iframe> */}
 
 
                 </div>

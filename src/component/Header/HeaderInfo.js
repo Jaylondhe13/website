@@ -11,7 +11,7 @@ const HeaderInfo = () => {
           <img
             src={logo}
             alt="College Logo"
-            className="img-fluid rounded-circle" style={{width:"150px", height:"150px"}}
+            className="img-fluid" style={{width:"150px", height:"150px",borderRadius:"50px"}}
           />
         </div>
 

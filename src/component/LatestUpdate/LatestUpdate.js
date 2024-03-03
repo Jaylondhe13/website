@@ -70,41 +70,31 @@ import './LatestUpdate.css'
 const LatestUpdate = () => {
   const updates = [
     {
-      date: "December 19, 2023",
-      event: "Greatest glory of RSCP in AVISHKAR 2023"
+      // date: "December 19, 2023",
+      event: "update 1"
     },
     {
-      date: "December 7, 2023",
-      event: "World AIDS Day Awareness"
+      // date: "December 7, 2023",
+      event: "update 2"
+    },
+   
+    {
+      // date: "November 8, 2023",
+      event: "update 3"
     },
     {
-      date: "November 30, 2023",
-      event: "Session on Cyber security and Addiction free Indian Awareness"
+      // date: "October 28, 2023",
+      event: "update 4"
     },
     {
-      date: "November 8, 2023",
-      event: "Blood Donation Camp 2023"
+      // date: "September 25, 2023",
+      event: "update 5"
     },
     {
-      date: "October 28, 2023",
-      event: "Skill Development Program 2023"
+      // date: "September 18, 2023",
+      event: "update 6"
     },
-    {
-      date: "September 25, 2023",
-      event: "Worlds Pharmacist Day 2023 - Manthan 2023"
-    },
-    {
-      date: "September 18, 2023",
-      event: "Eco friendly Ganapati Making Competition 2023"
-    },
-    {
-      date: "September 12, 2023",
-      event: "Direct second year Admission Notification 2023-24"
-    },
-    {
-      date: "September 7, 2023",
-      event: "Admission Notification 2023-24 for B. Pharmacy First Year Ag..."
-    }
+    
   ];
 
   return (
@@ -112,10 +102,11 @@ const LatestUpdate = () => {
       <h2 className='text-light p-2'>Latest Updates</h2>
       <div className="latest-updates bg-light m-4" >
       
-      <ul className="event-item">
+      <ul className="event-item text-center">
         {updates.map((update, index) => (
           <li key={index} >
-             {update.event} -<strong style={{fontSize:'12px', color:'gray'}}>{update.date}:</strong>
+             {/* {update.event} -<strong style={{fontSize:'12px', color:'gray'}}>{update.date}:</strong> */}
+             {update.event}
           </li>
         ))}
       </ul>

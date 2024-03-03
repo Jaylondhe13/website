@@ -38,7 +38,12 @@ export const headerInfo = {
     subtitle: 'Dwarka Bahuddeshiya Gramin Vikas Foundation’s',
     title: 'Shree Sant Gajanan Maharaj College of Pharmacy',
     subjects: '(B.Pharmacy & D.Pharmacy)',
-    address: "Near Palnaghar, Sagwan Road, Buldhana, Maharashtra 443001 Affiliated to Sant Gadge Baba Amravati University, Amravati | Estd. in 2012.",
+    address: (
+      <>
+        Near Palnaghar, Sagwan Road, Buldhana, Maharashtra 443001.<br />
+        Affiliated to Sant Gadge Baba Amravati University, Amravati | Estd. in 2012.
+      </>
+    ),
     certification: 'GOLD CATEGORY IN AICTE-CII SURVEY | Approved by PCI and AICTE, New Delhi | ISO 9001:2015 Certified'
 };
 
@@ -92,7 +97,7 @@ export const headerInfo = {
     },
     {
       title: 'IMPORTANT LINKS',
-      content: ['VMeduLife Login', 'IQAC', 'NIRF', 'AISHE', 'Approvals', 'CO, PO, PEO, PSO', 'CDC']
+      content: ['IQAC', 'NIRF', 'AISHE', 'Approvals', 'CO, PO, PEO, PSO', 'CDC']
     },
     {
       title: 'QUICK LINKS',
@@ -106,7 +111,7 @@ export const headerInfo = {
       title: 'CONTACT US',
       content: [
         { icon: faPhoneAlt, text: '+91-9921638101' },
-        { icon: faPhoneAlt, text: '+91-123' },
+        
         { icon: faEnvelope, text: 'ssgm.bpharm@gmail.com' }
       ]
     }

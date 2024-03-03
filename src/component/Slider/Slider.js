@@ -3,22 +3,53 @@
 // ImageSlider.js
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import slider1 from '../../assets/img/slider1.jpeg'
+import slider2 from '../../assets/img/slider2.jpeg'
+import slider3 from '../../assets/img/slider3.jpeg'
+import slider4 from '../../assets/img/slider4.jpeg'
+import slider5 from '../../assets/img/slider5.jpeg'
+import slider6 from '../../assets/img/slider6.jpeg'
+import slider7 from '../../assets/img/slider7.jpeg'
+import slider8 from '../../assets/img/slider8.jpeg'
 import './Slider.css';
 
 const images = [
   {
-    src: 'https://rscp.ac.in/wp-content/uploads/flayer-450x267.jpg ',
-    description: 'Description for Image 1',
+    src: slider1,
+    // description: 'Description for Image 1',
   },
   {
-    src: 'https://rscp.ac.in/wp-content/uploads/ecmg-day-450x267.png',
-    description: 'Description for Image 2',
+    src: slider1,
+    // description: 'Description for Image 2',
   },
 
   {
-    src: 'https://rscp.ac.in/wp-content/uploads/Skill-Development-Program-2023-5-450x267.jpg',
-    description: 'Description for Image 3',
+    src: slider3
+    // description: 'Description for Image 3',
   },
+  {
+    src: slider4,
+    // description: 'Description for Image 1',
+  },
+  {
+    src: slider5,
+    // description: 'Description for Image 2',
+  },
+
+  {
+    src: slider6
+    // description: 'Description for Image 3',
+  },
+  {
+    src: slider7,
+    // description: 'Description for Image 1',
+  },
+  {
+    src: slider8,
+    // description: 'Description for Image 2',
+  },
+
+  
   // Add more images as needed
 ];
 
