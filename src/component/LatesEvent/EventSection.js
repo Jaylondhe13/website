@@ -2,7 +2,7 @@
 import React from 'react';
 import Slider from "../Slider/Slider";
 import styles from './EventSection.module.css'; // Import the CSS module
-
+import {images} from '../../shared/constants'
 const EventSection = () => {
   return (
     <section style={{ height: "60vh", backgroundColor: "#053750" }}>
@@ -19,7 +19,7 @@ const EventSection = () => {
           </div>
 
           <div className={`d-flex mt-5 justify-content-evenly overflow-hidden ${styles.sliderWrapper}`}>
-            <Slider />
+            <Slider images = {images} />
           </div>
         </div>
 

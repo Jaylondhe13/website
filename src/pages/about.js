@@ -1,7 +1,3 @@
-import Header from "../component/Header/Header"
-import Menu from "../component/Menu/Menu"
-import BackgroundComponent from "../component/backGroundImage/BackgroundComponent"
-import FooterSection from "../component/footer/FooterSection"
 
 const AboutPage = () => {
     return <div className="container shadow-lg  mb-5 bg-body mt-5 lh-lg text-xl-start p-5 ">

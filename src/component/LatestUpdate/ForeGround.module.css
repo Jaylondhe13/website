@@ -1,17 +1,16 @@
-/* OurComponent.module.css */
+/* ForeGround.module.css */
+
 .foreground-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 100;
-    width: 100%;
-    height: auto
+  display: flex;
+  flex-direction: column; /* Stack elements vertically on small screens */
+  gap: 20px; /* Add space between elements */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+@media (min-width: 768px) {
+  .foreground-container {
+    flex-direction: row; /* Arrange elements side by side on larger screens */
+    justify-content: space-between; /* Distribute space evenly between elements */
+    align-items: center; /* Align elements vertically */
   }
-  
-  @media (min-width: 768px) {
-    .foreground-container {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
-  
+}

@@ -2,6 +2,14 @@ import { faTwitter, faFacebook, faInstagram, faWhatsapp, faYoutubeSquare  } from
 import { faGraduationCap, faFlask, faMusic, faGavel, faComments,  faCreditCard, faHeart, faPhoneAlt, faEnvelope  } from '@fortawesome/free-solid-svg-icons';
 import President from '../assets/img/President.jpg'
 import Principal from '../assets/img/Principal_Sir.jpg'
+import slider1 from '../assets/img/slider1.jpeg'
+import slider2 from '../assets/img/slider2.jpeg'
+import slider3 from '../assets/img/slider3.jpeg'
+import slider4 from '../assets/img/slider4.jpeg'
+import slider5 from '../assets/img/slider5.jpeg'
+import slider6 from '../assets/img/slider6.jpeg'
+import slider7 from '../assets/img/slider7.jpeg'
+import slider8 from '../assets/img/slider8.jpeg'
 
 export const socialLinks = [
     {
@@ -135,3 +143,46 @@ export const headerInfo = {
     }
   ];
   
+
+
+
+
+export const images = [
+  {
+    src: slider1,
+    // description: 'Description for Image 1',
+  },
+  {
+    src: slider2,
+    // description: 'Description for Image 2',
+  },
+
+  {
+    src: slider3
+    // description: 'Description for Image 3',
+  },
+  {
+    src: slider4,
+    // description: 'Description for Image 1',
+  },
+  {
+    src: slider5,
+    // description: 'Description for Image 2',
+  },
+
+  {
+    src: slider6
+    // description: 'Description for Image 3',
+  },
+  {
+    src: slider7,
+    // description: 'Description for Image 1',
+  },
+  {
+    src: slider8,
+    // description: 'Description for Image 2',
+  },
+
+  
+  // Add more images as needed
+];

@@ -4,11 +4,17 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import AboutPage from "./pages/about";
 import RootLayout from "./pages/root";
 import BgImageLayout from "./pages/bgImage";
+import GalleryPage from './pages/gallery';
+
+
 
 // import Footer from "./component/footer/Footer/";
 
 
 // import LatestEvent from "./component/LatesEvent/LatestEven
+
+
+
 
 const router = createBrowserRouter([
   {
@@ -17,10 +23,13 @@ const router = createBrowserRouter([
       { index: true, element: <HomePage /> },
       {
         path: '/',
-        element: <BgImageLayout />,
+        // element: <BgImageLayout />,
         children: [
-          { path: 'about', element: <AboutPage /> }
-        ],
+          { path: 'about', element: <AboutPage/>},
+          { path: 'gallery', element: <GalleryPage/>}
+          
+         
+        ]
        
 
 

@@ -1,48 +1,45 @@
-/* ThreePartBlock.module.css */
+/* CollegeInfo.module.css */
+
+@media (max-width: 768px) {
+  .collegeInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info {
+    margin-bottom: 20px; /* Adjust spacing between sections */
+  }
+
+  .video {
+    /* Add styles for video section on smaller screens */
+  }
+}
 
 .collegeInfo {
     display: flex;
     flex-wrap: wrap;
     margin-top: 5px;
-   
     color: #ffff;
-    
-    /* background-color: #053750 */
-  }
-  .bg{
-    background: linear-gradient(to left, #fff, #053750)
-  }
-  
-  .info,
-  .video,
-  .animatedImage {
+}
+
+.bg{
+    background: linear-gradient(to left, #fff, #053750);
+}
+
+.info,
+.video,
+.animatedImage {
     flex: 1;
     box-sizing: border-box;
     padding: 20px;
     margin-top: 40px;
-  }
-  
-  .info {
-   
-  }
-  
-  .video {
-    /* background-color: #e0e0e0; */
-  }
-  
-  
-  
-  /* Add styles for animation as needed */
-  p{
-   text-align: justify;
-   font-size: 15px;
-  }
+}
 
 
 
-  
- 
-  
-  
-  
-  
+/* Add styles for animation as needed */
+p {
+    text-align: justify;
+    font-size: 15px;
+}

@@ -1,31 +1,36 @@
 /* LatestUpdate.css */
 
-  
+.latest-updates {
+  overflow: hidden;
+  height: 400px; /* Reduce the height for better visibility */
+  min-width: 300px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 10px; /* Add some rounded corners */
+  padding: 20px; /* Add padding for better spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
 
-  .latest-updates{
-    /* margin-top: 10%; */
-    overflow: hidden;
-    height: 500px;
-    min-width: 300px;
-  }
-  @keyframes moveFromBottom {
-    -100% { transform: translateY(100%); }
-   /* 50% { transform: translateY(-100%); } */
-    100% { transform: translateY(-100%); } 
-  }
-  
-  .event-item {
-    animation: moveFromBottom 10s infinite linear;
-    overflow-y: hidden;
-    text-align: left;
-    
-  }
-  
-  .event-item:hover {
-    animation-play-state: paused;
-  }
+@keyframes moveFromBottom {
+  0% { transform: translateY(100%); }
+  100% { transform: translateY(-100%); } 
+}
 
+.event-item {
+  animation: moveFromBottom 10s infinite linear;
+  overflow-y: hidden;
+  text-align: left;
+  padding: 10px; /* Add padding for better spacing */
+  border-radius: 5px; /* Add some rounded corners */
+  background-color: #fff; /* White background */
+  margin-bottom: 10px; /* Add margin between items */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
 
-  .event-item li {
-    list-style: none;
-  }
+.event-item:hover {
+  animation-play-state: paused;
+}
+
+.event-item li {
+  list-style: none;
+  margin: 0; /* Remove default margin */
+}

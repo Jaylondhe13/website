@@ -6,6 +6,7 @@ import PortalDashboardComponent from "../component/GallarySection/PortalDashboar
 import EventSection from "../component/LatesEvent/EventSection";
 import LatestInfo from "../component/LatestInfo/LatestInfo";
 import BackGroundlayout from "../component/LatestUpdate/BackGroundLayout";
+import ForeGround from "../component/LatestUpdate/ForeGround";
 import MainSection from "../component/MainSection/MainSection";
 
 import MessageComponent from "../component/MessageSection/MessageComponent";
@@ -20,7 +21,8 @@ const HomePage = () => {
         <LatestInfo />
         <MessageComponent />
 
-        <BackGroundlayout />
+        {/* <BackGroundlayout /> */}
+        <ForeGround/>
         <EventSection />
         <MainSection />
         {/* <GallarySection /> */}

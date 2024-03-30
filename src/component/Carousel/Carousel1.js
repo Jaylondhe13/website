@@ -94,7 +94,7 @@ function Example() {
   ));
 
   return (
-    <div style={{ background: '#053750' }} className="mt-2">
+    <div style={{ background: '#053750' }}>
       <Carousel
         activeIndex={activeIndex}
         next={next}

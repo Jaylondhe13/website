@@ -1,84 +1,75 @@
 .menu-item {
-    /* position: relative; */
-    padding: 15px 20px;
-    cursor: pointer;
-    color: #fff;
-  
-    
-  }
-  
+  padding: 10px 15px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.menu-model {
+  position: absolute;
+  width: 100%;
+  top: 100%;
+  left: 0;
+  display: flex;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  justify-content: space-evenly;
+  z-index: 44;
+  color: #111;
+}
+
+.model {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #ddd;
+}
+
+.model:last-child {
+  border-right: none;
+}
+
+.model-title {
+  font-weight: bold;
+  margin: 5px 0;
+  margin-left: 15px;
+}
+
+.model-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.model-content a {
+  text-decoration: none;
+}
+
+.content-item {
+  padding: 8px 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.content-item img {
+  width: 70%; /* Ensure images fill the container */
+  height: 50%; /* Ensure images fill the container */
+  object-fit: cover; /* Cover the container with the image */
+  object-position: center; /* Center the image within the container */
+ 
+}
+
+.content-item:last-child {
+  border-bottom: none;
+}
+
+@media (max-width: 768px) {
   .menu-model {
-    position: absolute;
-    width: 100%;
-    top: 100%;
-    left: 0;
-    display: flex;          /* Make the container flex */
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
-    /* width: max-content; */
-    justify-content: space-evenly;
-    z-index: 44;
-    color: #111;
-    /* animation: slide-down 0.3s ease-out forwards; */
-    
+    flex-direction: column; /* Change flex direction for smaller screens */
+    top: auto; /* Remove top positioning */
+
+    left: 50%; /* Center the model horizontally */
+    transform: translateX(-50%); /* Center the model horizontally */
   }
+}
 
 
-  @keyframes slide-down {
-    0%{
-      transform: translateY(30px);
-      opacity: 0;
-
-    }
-
-    100%{
-      transform: translateY(0px);
-      opacity: 1;
-
-    }
-  }
-  
-  .model {
-    flex: 1;                /* Each model section takes equal space */
-    padding: 10px;
-    display: flex;          /* Arrange title and content vertically */
-    flex-direction: column;
-    border-right: 1px solid #ddd; /* Add border between sections */
-   
-    
-  }
-  
-  .model:last-child {
-    border-right: none;     /* Remove border for the last section */
-  }
-  
-  .model-title {
-    font-weight: bold;
-    margin: 5px 0;     /* Add a small gap between title and content */
-    margin-left: 15px;
-    
-  }
-  
-  .model-content {
-    display: flex;
-    flex-direction: column;
-    
-    
-  }
-
-  .model-content a{
-    text-decoration: none;
-  }
-  
-  .content-item {
-    padding: 8px 15px;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .content-item:last-child {
-    border-bottom: none;
-  }
-  
-
-  

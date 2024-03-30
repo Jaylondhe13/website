@@ -1,56 +1,59 @@
 /* OurCourses.module.css */
-.our-courses-container {
+.images-container {
   display: flex;
-  justify-content:space-evenly;
-  align-items: center;
+  flex-direction: column; /* Stack images vertically by default */
+}
+
+.our-courses-container {
   padding: 20px;
-  width: 100%;
+  display: flex;
+  align-items: center; /* Center content vertically */
 }
 
 .vertical-strip {
   display: flex;
   flex-direction: column;
-  z-index: 1;
-  
-  
+  align-items: center;
+  margin-right: 20px; /* Add margin for spacing between text and images */
 }
 
 .vertical-strip h2 {
-  writing-mode: vertical-rl; /* Vertical text */
-  text-orientation: upright;
-  font-size: 30px;
-  margin-bottom: 10px;
-  font-weight: 800;
-  color: #54595F;
-  
-  
+  font-size: 24px; /* Adjust font size for smaller screens */
+  text-transform: uppercase; /* Convert text to uppercase */
+  writing-mode: vertical-rl; /* Set vertical writing mode */
+  text-orientation: mixed; /* Adjust text orientation */
+  color: #053750; /* Set text color */
+  font-weight: bold; /* Set font weight */
+  letter-spacing: 2px; /* Adjust letter spacing */
+  margin-bottom: 10px; /* Add margin for spacing */
 }
 
 .images-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  /* Set a maximum width for better responsiveness */
-  width: 60%;
 }
 
 .top-images {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-bottom: 20px;
-  width: 100%;
-  
 }
 
 .top-images img {
-  opacity: 1 !important;
-  box-shadow: 0px 0px 20px 10px rgba(0.013664245605458092, 0.013664245605458092, 0.013664245605458092, 0.14);
-  z-index: 347;
+  margin-right: 20px; /* Add margin between images */
+  border-radius: 8px; /* Add border radius for images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for images */
 }
 
-.bottom-image img {
-  opacity: 1 !important;
-  box-shadow: 0px 0px 20px 10px rgba(0.013664245605458092, 0.013664245605458092, 0.013664245605458092, 0.14);
-  z-index: 33;
+.bottom-image {
+  width: 100%; /* Make bottom image full width */
+  max-width: 225px; /* Limit bottom image width for better display */
+  margin: 0 auto; /* Center bottom image */
+}
+
+@media (min-width: 768px) {
+  .images-container {
+    flex-direction: row; /* Align images side by side on larger screens */
+  }
 }

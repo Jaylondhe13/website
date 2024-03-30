@@ -3,7 +3,7 @@ import React from 'react';
 import styles from './OurCourses.module.css'; // Import the CSS module
 import { motion } from 'framer-motion';
 import bPharm from '../../assets/img/bPharm.jpeg'
-import dPharm from '../../assets/img/bPharm.jpeg'
+import dPharm from '../../assets/img/dPharm.jpeg'
 
 const OurCourses = () => {
   return (
@@ -26,10 +26,11 @@ const OurCourses = () => {
               loading="lazy" 
               width="225px"
               height="300px"
-
             />
           </motion.div>
+        </div>
 
+        <div className={styles['top-images']}>
           <motion.div 
             whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}
             animate={{ rotate: 360, transition: { duration: 1 } }}
@@ -43,14 +44,6 @@ const OurCourses = () => {
             />
           </motion.div>
         </div>
-
-        <motion.div 
-          whileHover={{ scale: 1.1, transition: { duration: 0.5 } }}
-          animate={{ rotate: 360, transition: { duration: 1 } }}
-          className={styles['bottom-image']}
-        >
-          
-        </motion.div>
       </div>
     </div>
   );

@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "Portfolio distribution",
+      "description": "Description of Portfolio distribution committee",
+      "pdfUrl": "/pdfs/portfolio_distribution.pdf"
+    },
+    {
+      "id": 2,
+      "name": "Gravience redressal committee",
+      "description": "Description of Gravience redressal committee",
+      "pdfUrl": "/pdfs/gravience_redressal.pdf"
+    },
+    {
+      "id": 3,
+      "name": "College council committee for inspection",
+      "description": "Description of College council committee for inspection",
+      "pdfUrl": "/pdfs/college_inspection.pdf"
+    }
+  ]
+  

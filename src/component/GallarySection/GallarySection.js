@@ -1,5 +1,5 @@
 import PhotoSlider from "../Slider/PhotoSlider";
-import { photoGallaryImg } from "../../shared/constants";
+import { images } from "../../shared/constants";
 
 const GallarySection = () => {
     return (
@@ -7,12 +7,12 @@ const GallarySection = () => {
             <div className="container d-flex justify-content-between">
                 <div className="d-flex flex-column text-center bg-light my-5" style={{ width: "48%", height: "333px" }}>
                     <h2>Photo Gallery</h2>
-                    <PhotoSlider photos={photoGallaryImg} />
+                    <PhotoSlider photos={images} />
                 </div>
 
                 <div className="d-flex flex-column text-center bg-light my-5" style={{ width: "48%", height: "333px" }}>
                     <h2>Press Releases</h2>
-                    <PhotoSlider photos={photoGallaryImg} />
+                    <PhotoSlider photos={images} />
                 </div>
             </div>
         </section>
